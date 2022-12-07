@@ -1,0 +1,43 @@
+.cards {
+  padding: 50px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form {
+  padding: 30px;
+  margin: 50px auto;
+  width: 400px;
+
+  border: 3px solid black;
+  input,
+  select {
+    padding: 3px 15px;
+    border: 2px solid black;
+    margin-left: 10px;
+  }
+  p {
+    color: red;
+    font-size: 10px;
+  }
+  div {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 5%;
+  }
+}
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
