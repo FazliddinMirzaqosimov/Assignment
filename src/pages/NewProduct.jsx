@@ -123,11 +123,11 @@ function NewProduct(props) {
           </div>
           <div>
             <label htmlFor="length">Length: </label>{" "}
-            <input type="number" name="length" placeholder="length" required />
+            <input id='length' type="number" name="length" placeholder="length" required />
           </div>
           <div>
             <label htmlFor="width">Width: </label>{" "}
-            <input type="number" name="width" placeholder="width" required />
+            <input id='width' type="number" name="width" placeholder="width" required />
           </div>
         </>
       )}
