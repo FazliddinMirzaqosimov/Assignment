@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function useGetItems() {
-  return JSON.parse(localStorage.getItem("products"));
+  return JSON.parse(localStorage.getItem("products")) || [];
 }
 
 function uaseSetItems(data) {
