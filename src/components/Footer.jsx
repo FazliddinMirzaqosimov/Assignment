@@ -6,6 +6,7 @@ function Footer() {
       <a href="https://scandiweb.com/" target="_blank">
         &copy; Scandiweb test assignment
       </a>
+    <p style={{display:'none'}}>NameTest002</p>
     </footer>
   );
 }
